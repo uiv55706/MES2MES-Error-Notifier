@@ -6,16 +6,16 @@ from win10toast import ToastNotifier  # Install this package using pip
 
 # Specify the folders to monitor for new directories
 folders_to_monitor_directories = [
-    r"C:\Users\uiv55706\Desktop\notif_test1",
-    r"C:\Users\uiv55706\Desktop\notif_test2",
-    r"C:\Users\uiv55706\Desktop\notif_test3"
+    r"\\10.222.160.218\Tools\MES2MES DEB-BSV\errors_during_upload",
+    r"\\10.222.160.218\Tools\MES2MES light\errors_during_upload",
+    r"\\10.222.160.218\Tools\MES2MES NUE-BSV\errors_during_upload"
 ]
 
 # Specify the folders to monitor for 10 txt files
 folders_to_monitor_txt_files = [
-    r"C:\Users\uiv55706\Desktop\notif_txt1",
-    r"C:\Users\uiv55706\Desktop\notif_txt2",
-    r"C:\Users\uiv55706\Desktop\notif_txt3"
+    r"\\vt1.vitesco.com\SMT\didt1094\MES2MES_Debrecen",
+    r"\\vt1.vitesco.com\SMT\didt1094\MES2MES",
+    r"\\nufs01p2.vt1.vitesco.com\MES2MESlightNUEBSV"
 ]
 
 # Initialize the toast notifier
